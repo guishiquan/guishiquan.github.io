@@ -22,5 +22,16 @@ jobs:
       - name: Build site
         run: pnpm build
 
-      - name: Show output size
-        run: du -sh public
+      - name: Deploy to pages branch
+        run: |
+          set -e
+          git config --global user.name "Gitea Actions"
+          git config --global user.email "actions@gitea"
+          mkdir -p /tmp/site
+          cp -a public/. /tmp/site/
+          git checkout --orphan pages
+          git rm -rf . >/dev/null 2>&1 || true
+          cp -a /tmp/site/. .
+          git add -A
+          git commit -m "Deploy site: ${{ gitea.sha }}"
+          git push --force "http://oauth2:${{ secrets.GITHUB_TOKEN }}@gitea:3000/${{ gitea.repository }}.git" pages
