@@ -1,0 +1,26 @@
+name: Build Hexo Site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # job 容器与 gitea 在同一个 docker 网络，所以可以直接用 gitea:3000
+      - name: Checkout repository
+        run: git clone --depth 1 "http://oauth2:${{ secrets.GITHUB_TOKEN }}@gitea:3000/${{ gitea.repository }}.git" .
+
+      - name: Enable pnpm via corepack
+        run: corepack enable && pnpm --version
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build site
+        run: pnpm build
+
+      - name: Show output size
+        run: du -sh public
