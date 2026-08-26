@@ -1,6 +1,7 @@
 ---
 title: Windows系统下载与安装
 slug: windows-install
+description: "Windows 7/8/10 系统镜像下载、U 盘启动盘制作与安装的完整步骤。"
 date: 2020-04-17 10:27:10
 updated: 2020-06-04 12:41:35
 categories:

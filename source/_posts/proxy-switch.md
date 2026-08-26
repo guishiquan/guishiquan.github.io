@@ -1,6 +1,7 @@
 ---
 title: Linux/macOS 命令行快速切换代理
 slug: proxy-switch
+description: "在 Linux/macOS 终端中定义 proxy 与 noproxy 函数，一条命令快速开启或关闭代理环境变量。"
 date: 2026-08-26 11:00:00
 updated: 2026-08-26 11:00:00
 categories:

@@ -1,6 +1,7 @@
 ---
 title: Docker Compose 部署 MySQL（8.4 / 5.7）
 slug: docker-compose-mysql
+description: "使用 Docker Compose 部署 MySQL 8.4（LTS）和 5.7（老项目兼容），包含数据持久化、自定义配置、初始化脚本与备份。"
 date: 2026-08-26 14:40:00
 updated: 2026-08-26 14:40:00
 categories:

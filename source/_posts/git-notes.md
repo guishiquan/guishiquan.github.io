@@ -1,6 +1,7 @@
 ---
 title: Git笔记
 slug: git-notes
+description: "Git 学习笔记：从安装、版本库创建到分支管理、标签和远程协作的常用命令整理。"
 date: 2018-02-21 10:55:08
 updated: 2020-06-04 12:41:35
 categories:

@@ -1,6 +1,7 @@
 ---
 title: Docker安装MySQL
 slug: docker-mysql
+description: "记录使用 Docker 获取、运行和连接 MySQL 容器，以及修改 root 密码与开放远程访问的基本步骤。"
 date: 2019-02-26 12:09:04
 updated: 2020-06-04 12:41:35
 categories:

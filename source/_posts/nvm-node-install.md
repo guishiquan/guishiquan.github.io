@@ -1,6 +1,7 @@
 ---
 title: Linux/macOS 安装 NVM 与 Node.js
 slug: nvm-node-install
+description: "在 Linux/macOS 上安装 nvm，并用它安装、切换和管理多个 Node.js 版本。"
 date: 2026-08-26 10:30:00
 updated: 2026-08-26 10:30:00
 categories:

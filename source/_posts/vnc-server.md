@@ -1,6 +1,7 @@
 ---
 title: VNC Server安装笔记
 slug: vnc-server
+description: "CentOS 7 与 Ubuntu 14.04 下安装配置 TigerVNC/vnc4server，实现远程图形桌面连接。"
 date: 2019-02-26 11:23:08
 updated: 2020-06-04 12:41:35
 tags:

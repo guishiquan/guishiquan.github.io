@@ -1,6 +1,7 @@
 ---
 title: jdk配置
 slug: jdk-config
+description: "下载 JDK 后解压并配置 JAVA_HOME 等环境变量，让 Java 命令在 Linux 上生效。"
 date: 2020-06-03 16:55:58
 updated: 2020-06-04 12:41:35
 tags:

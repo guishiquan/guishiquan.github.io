@@ -1,6 +1,7 @@
 ---
 title: Maven配置
 slug: maven-config
+description: "Maven 安装配置：解压安装、设置本地仓库路径并切换阿里云镜像源。"
 date: 2020-06-03 16:32:20
 updated: 2020-06-04 12:41:35
 categories:

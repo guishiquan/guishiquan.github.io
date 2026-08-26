@@ -1,6 +1,7 @@
 ---
 title: Docker Compose 部署 Nginx
 slug: docker-compose-nginx
+description: "使用 Docker Compose 部署 Nginx，挂载网站目录与日志，支持热重载，并附文件下载服务器配置。"
 date: 2026-08-26 14:45:00
 updated: 2026-08-26 14:45:00
 categories:

@@ -1,6 +1,7 @@
 ---
 title: 服务器安装GUI
 slug: server-gui
+description: "在 CentOS 服务器上安装 GNOME 图形界面，并设置为默认图形启动。"
 date: 2018-02-20 10:12:21
 updated: 2020-06-04 12:41:36
 tags:

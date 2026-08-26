@@ -1,6 +1,7 @@
 ---
 title: Manjaro Linux 安装配置 Avahi（mDNS）
 slug: LAN_avahi
+description: "在 Manjaro Linux 上安装配置 Avahi 与 nss-mdns，实现 .local 域名解析（mDNS）。"
 date: 2026-08-26 14:15:00
 updated: 2026-08-26 14:15:00
 categories:

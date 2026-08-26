@@ -1,6 +1,7 @@
 ---
 title: 安装Docker
 slug: install-docker
+description: "在 Ubuntu 上通过官方仓库或 deb 包安装 Docker Engine，并配置免 sudo 使用和卸载。"
 date: 2019-01-08 11:14:28
 updated: 2020-06-04 12:41:36
 categories:

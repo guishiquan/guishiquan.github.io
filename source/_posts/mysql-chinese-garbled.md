@@ -1,6 +1,7 @@
 ---
 title: MySQL中文乱码
 slug: mysql-chinese-garbled
+description: "通过修改 mysql.cnf 的字符集配置，解决 MySQL 中文乱码问题。"
 date: 2018-02-21 10:55:08
 updated: 2020-06-04 12:41:35
 categories:

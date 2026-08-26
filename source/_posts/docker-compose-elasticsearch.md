@@ -1,6 +1,7 @@
 ---
 title: Docker Compose 部署 Elasticsearch 7.2 + Kibana
 slug: docker-compose-elasticsearch
+description: "使用 Docker Compose 部署 Elasticsearch 7.2（单节点）与 Kibana，数据、日志和插件目录均映射到宿主机。"
 date: 2026-08-26 14:50:00
 updated: 2026-08-26 14:50:00
 categories:

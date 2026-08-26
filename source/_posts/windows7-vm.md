@@ -1,6 +1,7 @@
 ---
 title: 虚拟机安装Windows7问题
 slug: windows7-vm
+description: "记录 VirtualBox 和 VMware 中安装 Windows 7 的常见问题，重点是 USB 3.0 驱动的解决。"
 date: 2019-03-09 07:54:15
 updated: 2020-06-04 12:41:36
 categories:

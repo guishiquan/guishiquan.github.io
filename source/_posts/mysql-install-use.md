@@ -1,6 +1,7 @@
 ---
 title: MySQL安装与使用
 slug: mysql-install-use
+description: "Ubuntu 在线安装 MySQL，以及登录、建库建表、增删改查等基本使用命令。"
 date: 2018-02-21 10:55:08
 updated: 2020-06-04 12:41:35
 categories:

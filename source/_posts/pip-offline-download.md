@@ -1,6 +1,7 @@
 ---
 title: pip 离线下载组件与依赖
 slug: pip-offline-download
+description: "使用 pip download 离线下载指定组件、指定版本及依赖，支持按平台选择并批量下载 requirements.txt。"
 date: 2026-08-26 12:00:00
 updated: 2026-08-26 12:00:00
 categories:
