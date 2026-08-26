@@ -10,12 +10,12 @@ tags:
   - ubuntu
 ---
 
-# Mysql 安装与使用
+# MySQL 安装与使用
 
 ## Ubuntu在线安装MySQL
 
 ```bash
-sudo apt search mysql       //搜索关于mysql的应用
+sudo apt search mysql   # 搜索关于mysql的应用
 ```
 
 ```bash
@@ -27,7 +27,7 @@ sudo apt-get install libmysqlclient20-dev
 ```
 
 ```bash
-ln -s  /usr/lib64/mysql/libmysqlclient.so /lib/libmysqlclient.so
+ln -s /usr/lib64/mysql/libmysqlclient.so /lib/libmysqlclient.so
 ```
 
 ## 使用MySQL
@@ -35,48 +35,50 @@ ln -s  /usr/lib64/mysql/libmysqlclient.so /lib/libmysqlclient.so
 启动mysql
 
 ```bash
-service mysqld start      //启动MySql
+service mysqld start   # 启动MySql
 ```
 
 登录mysql
 
-```plain
-mysql –u root –p 			//登录MySql
-//若无密码，出现Enter password：可直    登录后设置密码
+```bash
+mysql -u root -p   # 登录MySql
+# 若无密码，出现Enter password：可直接登录后设置密码
 ```
 
-```plain
-mysql->SET PASSWORD FOR `root`@`localhost`=PASSWORD(`*****`);
+设置密码
+
+```sql
+mysql> SET PASSWORD FOR `root`@`localhost` = PASSWORD(`*****`);
 ```
 
 浏览已经存在的数据库
 
-```plain
-mysql->show databases;
+```sql
+mysql> show databases;
 ```
 
 创建数据库test
 
-```plain
-mysql->CREATE DATABASE test;
-mysql->show databases;
+```sql
+mysql> CREATE DATABASE test;
+mysql> show databases;
 ```
 
 选中数据库
 
-```plain
-mysql->use test;
+```sql
+mysql> use test;
 ```
 
 浏览已经存在的表
 
-```plain
-mysql->show tables;
+```sql
+mysql> show tables;
 ```
 
 新建表
 
-```plain
+```sql
 CREATE TABLE demotable(
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `demodata` VARCHAR(255) DEFAULT NULL,
@@ -86,22 +88,22 @@ CREATE TABLE demotable(
 
 查看表中定义
 
-```plain
-mysql->describe demotable;
+```sql
+mysql> describe demotable;
 ```
 
 添加数据
 
-```plain
-mysql->INSERT INTO demotable(`id`,`demodata`)
+```sql
+mysql> INSERT INTO demotable(`id`,`demodata`)
     VALUES("1415925320","guiquan");
-mysql->INSERT INTO demotable(`demodata`)
+mysql> INSERT INTO demotable(`demodata`)
     VALUES("test");
-mysql->SELECT * FROM demotable;
+mysql> SELECT * FROM demotable;
 ```
 
 退出MySql客户端
 
-```plain
-mysql->quit;
+```sql
+mysql> quit;
 ```

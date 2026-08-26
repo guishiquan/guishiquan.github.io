@@ -10,7 +10,8 @@ tags:
 
 1. 下载源文件 Oracle JDK
 2. 解压文件,复制到`/opt/`
-3. 配置.修改`/etc/profile`或者`~/.bashrc`,末尾添加:
+3. 配置：修改`/etc/profile`或者`~/.bashrc`,末尾添加:
+
     ```bash
     export JAVA_HOME=/opt/jdk
     export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
@@ -18,6 +19,6 @@ tags:
     ```
 4. 重启或执行如下命令后生效：
 
-```bash
-source /etc/profile 或 source ~/.bashrc
-```
+    ```bash
+    source /etc/profile 或 source ~/.bashrc
+    ```

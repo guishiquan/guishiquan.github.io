@@ -22,17 +22,14 @@ tags:
 
 1. 本地新建一个maven仓库文件夹。
 2. 修改maven安装目录下的`conf`目录下的`settings`文件，添加：
-    
-    
+
     ```xml
     <localRepository>/opt/repo</localRepository>
     ```
 3. 修改镜像为阿里云
-    
-    
+
     修改maven安装目录下的`conf`目录下的`settings`文件
-    
-    
+
     ```xml
     <mirror>
       <id>nexus-aliyun</id>

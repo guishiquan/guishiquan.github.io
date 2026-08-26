@@ -12,7 +12,7 @@ tags:
 
 修改`mysql.cnf`文件，一般存放于`/etc/mysql/conf.d/mysql.cnf`
 
-```
+```ini
 [client]
 default-character-set=utf8
 

@@ -16,4 +16,4 @@ tags:
 4. `systemctl set-default graphical.target` 设置为桌面环境启动服务器
 5. `reboot`重启
 
-ps:安装GUI后出现黑色背景,无标题栏等可能是应为使用了 yum update .因此没事不要乱更新.
+PS：安装GUI后出现黑色背景,无标题栏等可能是应为使用了 yum update .因此没事不要乱更新.
