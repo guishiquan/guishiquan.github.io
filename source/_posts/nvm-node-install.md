@@ -88,6 +88,14 @@ command -v nvm
 
 输出 `nvm` 即表示安装成功。注意：nvm 是一个 shell 函数，不是可执行文件，`which nvm` 无法检测。
 
+如果 `command -v nvm` 没有输出，检查 `~/.bashrc` 或 `~/.zshrc` 是否包含以下配置，没有则手动添加：
+
+```bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+
 ## 3. 安装 Node.js
 
 安装最新的 LTS 版本（推荐，目前为 Node.js 24）：
@@ -122,25 +130,25 @@ npm -v
 - 安装 Node.js 时会自动带上对应版本的 npm
 - 使用 nvm 后，全局安装 npm 包不需要 `sudo`：
 
-```bash
-npm install -g yarn
-```
+    ```bash
+    npm install -g yarn
+    ```
 
 ## 4. 常用命令
 
-| 命令 | 说明 |
-| --- | --- |
-| `nvm install --lts` | 安装最新 LTS 版本 |
-| `nvm install node` | 安装最新版本 |
-| `nvm install 24` | 安装指定主版本 |
-| `nvm use 24` | 切换当前 shell 使用的版本 |
-| `nvm alias default 24` | 设置默认版本 |
-| `nvm ls` | 查看已安装版本 |
-| `nvm ls-remote` | 查看远程可用版本 |
-| `nvm current` | 查看当前使用的版本 |
-| `nvm uninstall 24` | 卸载指定版本 |
-| `nvm which 24` | 查看指定版本的可执行文件路径 |
-| `nvm run 24 --version` | 用指定版本直接运行命令 |
+| 命令                     | 说明                         |
+| ------------------------ | ---------------------------- |
+| `nvm install --lts`    | 安装最新 LTS 版本            |
+| `nvm install node`     | 安装最新版本                 |
+| `nvm install 24`       | 安装指定主版本               |
+| `nvm use 24`           | 切换当前 shell 使用的版本    |
+| `nvm alias default 24` | 设置默认版本                 |
+| `nvm ls`               | 查看已安装版本               |
+| `nvm ls-remote`        | 查看远程可用版本             |
+| `nvm current`          | 查看当前使用的版本           |
+| `nvm uninstall 24`     | 卸载指定版本                 |
+| `nvm which 24`         | 查看指定版本的可执行文件路径 |
+| `nvm run 24 --version` | 用指定版本直接运行命令       |
 
 ## 5. 项目级版本管理（.nvmrc）
 
