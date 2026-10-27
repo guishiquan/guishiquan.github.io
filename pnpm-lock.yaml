@@ -43,8 +43,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       hexo-theme-next:
-        specifier: ^8.29.0
-        version: 8.29.0
+        specifier: ^8.29.1
+        version: 8.29.1
 
 packages:
 
@@ -455,8 +455,8 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
-  hexo-theme-next@8.29.0:
-    resolution: {integrity: sha512-mj1wFEwEQCcKeJqnKqV559WsqyVRzZC83PBjjWvOrjBAADvW6gyaCk6X4Zok55Xp6P+7an5q68y1nyzJHOVIAg==}
+  hexo-theme-next@8.29.1:
+    resolution: {integrity: sha512-rTiBjbVE6KR1YRsqB4wHPUjSJSBHyZXxMmXStuqQsx+uSz7aRRgZ7sH5dKo7cz41jQoGaI8MvI/AHTiNuIIclQ==}
 
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
@@ -1383,7 +1383,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hexo-theme-next@8.29.0: {}
+  hexo-theme-next@8.29.1: {}
 
   hexo-util@3.3.0:
     dependencies:
